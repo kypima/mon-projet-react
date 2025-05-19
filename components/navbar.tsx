@@ -26,7 +26,7 @@ export function Navbar() {
     { href: "/formation", label: "Formation" },
     { href: "/projets", label: "Projets" },
     { href: "/veille", label: "Veille" },
-    { href: "/competence", label: "TCS" },
+    { href: "/competences", label: "TCS" },
     { href: "/contact", label: "Contact" },
   ]
 
