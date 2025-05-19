@@ -88,7 +88,7 @@ export default function Competences() {
   return (
     <div className="relative">
       <PageHeader
-        title="Compétences & TCS"
+        title="TCS"
         subtitle="Tableau de compétences et synthèse de mes acquis en BTS SIO SISR"
         gradient="from-green-400 to-teal-600"
       />
