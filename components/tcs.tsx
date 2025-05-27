@@ -78,7 +78,7 @@ export function TCS() {
               Tableau de Compétences et Synthèse
             </h2>
             <p className="text-lg text-gray-400 max-w-3xl mx-auto">
-              Découvrez mes compétences techniques et professionnelles acquises durant ma formation BTS SIO.
+              POOOOOOécouvrez mes compétences techniques et professionnelles acquises durant ma formation BTS SIO.
             </p>
           </motion.div>
 
