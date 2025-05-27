@@ -86,10 +86,23 @@ export function TCS() {
             <Card className="bg-gray-900/50 border border-gray-800 overflow-hidden hover:shadow-lg hover:shadow-green-500/10 transition-all duration-300">
               <CardContent className="p-6">
                 <div className="flex justify-center mb-6">
-                  <Button className="bg-green-600 hover:bg-green-700 text-white">
-                    <FileText className="mr-2 h-4 w-4" /> Voir le tableau de synthèse complet
-                  </Button>
-                </div>
+  <Button
+    onClick={() => setShowPDF(!showPDF)}
+    className="bg-green-600 hover:bg-green-700 text-white"
+  >
+    <FileText className="mr-2 h-4 w-4" /> Voir le tableau de synthèse complet
+  </Button>
+</div>
+{showPDF && (
+  <div className="mt-6 w-full h-[800px]">
+    <iframe
+      src="/MARRAS KYLIAN- BTS SIO - Annexe 8-1 - Tableau de synthe se - Epreuve E5 - BTS SIO 2026 - Copie (2).pdf"
+      className="w-full h-full border border-gray-700 rounded-lg"
+      title="Tableau de synthèse PDF"
+    ></iframe>
+  </div>
+)}
+
                 <div className="relative w-full bg-gray-800 rounded-lg overflow-hidden">
                   <img
                     src="/TCS.png"
