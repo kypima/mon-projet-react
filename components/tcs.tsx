@@ -90,10 +90,12 @@ export function TCS() {
                     <FileText className="mr-2 h-4 w-4" /> Voir le tableau de synthèse complet
                   </Button>
                 </div>
-                <div className="relative w-full h-96 bg-gray-800 rounded-lg overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <p className="text-gray-400">Aperçu du tableau de synthèse des compétences</p>
-                  </div>
+                <div className="relative w-full bg-gray-800 rounded-lg overflow-hidden">
+                  <img
+                    src="/TCS.png"
+                    alt="Tableau de Compétences et Synthèse"
+                    className="w-full object-contain rounded-lg border border-gray-700"
+                  />
                 </div>
               </CardContent>
             </Card>
